@@ -10,6 +10,10 @@ Changelog
 
 ### Bugfixes
 
+-   Fix a bug in QuantumComputer.experiment that resulted in a TypeError being
+    raised when called multiple times on the same experiment when the underlying QAM
+    was a QVM based on a physical device (@appleby, gh-1188).
+
 [v2.18](https://github.com/rigetti/pyquil/compare/v2.17.0...v2.18.0) (March 3, 2020)
 ------------------------------------------------------------------------------------
 
